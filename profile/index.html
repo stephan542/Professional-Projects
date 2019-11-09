@@ -1,81 +1,132 @@
 <!doctype html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<title>Stephan Witter</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
- </head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
 <body>
-<div id="content">
-		<div id="banner">
-		<img id="image" src="img_sw.jpg" width="182" height="216" border="10" alt="A picture of me">
-			<h1>Stephan Witter</h1>
-			<hr />
-			<p>Cell:<a> 876-542-7777</a><br/>
-			Email: <a class="g_color" href="index.html">stefanwytter@gmail.com</a></p>
-			<p class="g_color"><br/>I am a friendly ,charismatic young professional Computer Scientist. My career <br/>objective is to provide usefull software to better the advancement of technology. My<br/> profession is important because as we see the world is entering a new technology age, in <br/> which computer scientist are needed to keep up with these changes.<br/><br><br/><br><br/><br><br/><br></p>	
+	<!-- <div id="content"> -->
+	<!-- <div id class="card" style="width: 18rem;">
+            <h5 class="card-title">Stephan Witter</h5>
+            <img src="img_sw.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">I am a friendly ,charismatic young professional Computer Scientist. My career
+                    objective is to provide usefull software to better the advancement of technology. My
+                    profession is important because as we see the world is entering a new technology age, in
+                    which computer scientist are needed to keep up with these changes.</p>
+            </div>
+        </div> -->
+	<header>
+		<div class="navbar navbar-dark bg-dark shadow-sm">
+			<div class="container d-flex justify-content-between">
+				<a href="#" class="navbar-brand d-flex align-items-center">
+					<img src="img_sw.jpg" width="128" height="128" fill="none" stroke="currentColor"
+						stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2"
+						viewBox="0 0 24 24" focusable="false">
+					<path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+					<circle cx="12" cy="13" r="4" /></svg>
+					<h1><strong>Stephan Witter<strong></h1>
+				</a>
+			</div>
 		</div>
-  		<div id="information">
-			<div class="info_header"><h4><i style="margin-right:6px">Education</i></h4></div>
-		    	<div class="info">
-		      		<p>
-		      		<h4>The University of the West Indies</h4>
-			  		<b>Major:</b>Computer Science<br/>
-			  		<b>Minor 1:</b>Economics
-					<br/>
-					<b>Minor 2:</b>Statistics
-		 	        <br/><br/>
-			 	    </p>
-				</div>
-			<br/><br/><br/><br/><br/><br/>
-			<div class="info_header"><h4><i style="margin-right:40px">Skills     </i></h4></div>
-		    	<div class="info">
-	      		<p>
-		 	    	<h4 style="margin-right:100px;">Computer Skills</h4>
-		 	    	<ul>
-						<li>Python,Java,HTML,CSS,C Programer</li>
-	 	                <li>Fully proficent in Window and Linux</li>
-	 	                <li>Fully proficent in Mircosoft Suite</li>
-		 	        </ul>
-		 	        <br/><br/>
-			 	    </p>
-			    </div>
-			    <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-			<div class="info_header"><h4><i>Experience</i></h4></div>
-		    	<div class="info">
-	      		<p>
-		      		<h4 style="margin-right:100px;">Stanford MniMart - St.Elizabth Jamaica 2013</h4>
-			  		<ul>
-						<li>Cashier servive</li>
-	 	                <li>Computer System operator</li>
-	 	                <li>Ensure that the stock of the business is keep</li>
-		 	        </ul>
-		 	    	<h4>Ministry of Education - St.Elizabth Jamaica 2013</h4>
-			  		Worked as a supervisor to the Grade 4 Achievment test.<br/>
-			 	    </p>
-			 	</div>
-			<br/><br/><br/><br/><br/><br/><br/><br/><br/>
-			<div class="info_header"><h4><i style="margin-right:18px">Hobbies</i></h4></div>
-		    	<div class="info">
-	      		<p>
-		      		<h4 style="margin-right:100px;">Art</h4>
-			  		I am very crafty and artistic in that I am able to drawing,paint and <br/>making beautful works of art.I love to cook also<br/><br/>
-		 	    	<h4 style="margin-right:100px;">Sports</h4>
-		 	    	Football,Vollleyball and Basketball<br/><br/>
-			 	    </p>
-			 	</div>
-		<br/><br/><br/><br/><br/><br/><br/><br/><br/>
-		   <div class="info_header"><h4><i>References</i></h4></div>
-		    	<div class="info">
-	      		<p>
-		      		<ul>
-						<li>Sherona Smith Cell:888-777-1111 Email:<a>smittys@hotmail.com</a></li>
-	 	                <li>Kevin Hart Cell:888-333-4444 Email:<a>khart@gmail.com</a></li>
-		 	        </ul>
-			 	 </p>
-			 	</div>
-		</div>
-		
-</div>
+	</header>
+
+	<main role="main">
+
+		<section class="jumbotron text-center">
+			<div class="container">
+				<h1 class="jumbotron-heading">Profile</h1>
+				<p class="lead text-muted">I am a friendly ,charismatic young professional Computer Scientist. My career
+					the objective is to provide useful software to better the advancement of technology. My profession
+					is important because as we see the world is entering a new technology age, in
+					which computer scientist are needed to keep up with these changes.</p>
+
+			</div>
+		</section>
+
+		<div class="album py-5 bg-light">
+			<div class="container">
+				<h1 class="jumbotron-heading">Projects</h1>
+				<p>
+					<a href="https://github.com/stephan542/Professional-Projects/" class="btn btn-primary my-2">All
+						Projects Git Repository</a>
+				</p>
+				<center><h1 class="jumbotron-heading">Previews</h1></center>
+				
+				<div class="row">
+					<div class="col-md-4">
+						<div class="card mb-4 shadow-sm">
+							<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="flappy.png"
+								preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+								aria-label="Placeholder: Thumbnail">
+							<div class="card-body">
+								<h5 class="card-title">Neural Evolution Project</h5>
+								<p class="card-text">Coded in Only Java, I recreated Flappy Bird with my own Neural
+									Neural Network library and Genetic Algorithm library. This was to challenged myself
+									to design a NEAT based AI. The inspiration came to me watching youtube showing a
+									finished product so I decided to learn NEAT, in order to create my own. It is as
+									good as the
+									one I saw but it still could use more tweeting.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-outline-secondary"><a
+												href="https://github.com/stephan542/Professional-Projects/tree/master/FlappyBird">View
+												Source Code</a></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mb-4 shadow-sm">
+							<img class="bd-placeholder-img card-img-top" width="100%" height="225" src="messaging.png"
+								preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+								aria-label="Placeholder: Thumbnail">
+							<div class="card-body">
+								<h5 class="card-title">Messaging Application</h5>
+								<p class="card-text">I designed a fully function Messaging Application like
+									WhatsApp,that gives realtime messaging using Vue J and the Firebase API.This was
+									build as a feature for a real estate company's website yet to be launched.</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-outline-secondary"><a
+												href="https://github.com/stephan542/Professional-Projects/blob/master/Node%20Project%20Src%20(Whatsapp%20Clone)/components/ChatHomepage.vue">View
+												Source Code</a></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card mb-4 shadow-sm">
+							<img class="bd-placeholder-img card-img-top" width="100%" height="225"
+								src="constituency.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"
+								aria-label="Placeholder: Thumbnail">
+							<div class="card-body">
+								<h5 class="card-title">Constituency Management system</h5>
+								<p class="card-text">This was a desktop application build fully in python,to create a
+									system to keep track of voter and apply statistical methods to predict votes.This
+									system is currently still in production and will soon me link to an online database.
+									An AI will then be added to make sense of the data obtained. (NB) I am not a
+									political person, data is just beautiful.
+
+								</p>
+								<div class="d-flex justify-content-between align-items-center">
+									<div class="btn-group">
+										<button type="button" class="btn btn-sm btn-outline-secondary"><a
+												href="https://github.com/stephan542/Professional-Projects/tree/master/MPSystem">View
+												Source Code</a></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+	</main>
 </body>
+
 </html>
