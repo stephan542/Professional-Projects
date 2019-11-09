@@ -1,0 +1,181 @@
+body{
+	font-family: 'Raleway',sans-serif;
+	background: #EFEFEA;
+	margin:0;
+	float:none;
+}
+
+#top_banner{
+	background: white;
+	box-shadow: 3px 3px 10px 10px lightgray;
+	width: 100%;
+	height: 50px;
+}
+
+#form_container{
+	margin:20px 0 0 50px;
+	width:34%;
+	height:480px;
+	padding: 0;
+	float:left;
+	border-left: lightgray 2px solid;
+	border-top: lightgray 1px solid;
+	border-right: lightgray 1px solid;
+	border-bottom: lightgray 2px solid;
+	border-radius: 2px;
+	background: white;
+}
+#content_container{
+	width:100%;
+	height: 100%;
+}
+#tab_group{
+	width:100%;
+	border:0px;
+	margin:0px;
+}
+
+.tab{
+	text-align: center;
+	cursor: pointer;
+	font-family: 'Raleway',sans-serif;
+	font-size: 20px;
+	width:50%;
+	color:black;
+	height:40px;
+}
+.tab:hover, .active{
+	transition: 0.5s ease;
+	background:rgba(255, 0, 0,0.8);
+	color:white;
+}
+.deslect{
+	transition: 0.5s ease;
+	background:rgba(255, 0, 0,0.4);
+}
+.active_form{
+	display:block !important;
+}
+.form_pane{
+	font-family: 'Roboto Condensed', sans-serif;
+	display:none;
+}
+#login_info,#forgot_info{
+	width:100%;
+}
+#signup_info{
+	width:90%;
+}
+.input_field{
+	padding:20px 0;
+	width:100%;
+	text-align: center;
+}
+.input_field2{
+	padding-left:20px;
+}
+.input_field3{
+	padding:20px 0 0 20px;
+}
+.input_box{
+	width:90%;
+	border:none;
+	border-bottom: solid rgba(255, 0, 0,0.8) 2px;
+	outline: none;
+	font-size: 14px;
+}
+.error,.error_server, .sucess,#error2,#sucess2{
+	font-size: 14px;
+	float:left;
+	display: none;
+}
+.info{
+	font-size: 14px;
+	float:left;
+	visibility: hidden;
+}
+
+.error, .error_server,#error2{
+	color:red;
+}
+.sucess{
+	color:limegreen;
+}
+.info,.spec6{
+	color: slategray;
+}
+.submit_btn,.contin_btn{
+	width:70%;
+	background: rgba(255, 0, 0,0.4);
+	border:none;
+	border-radius: 5px;
+	color:white;
+	font-family: 'Raleway',sans-serif;
+	font-size: 20px;
+	padding:10px 0;
+	cursor: pointer;
+}
+
+.spec{
+	text-decoration: none;
+	font-size: 12px;
+	text-align: center;
+}.spec1{margin-left:20px;}.spec2{float: right !important;}.spec3{width:100%}.spec4{margin-left:60px;}.spec5{width:60px !important;}.spec7{background:rgba(0, 255, 147 ,0.4);}.spec8{margin-right: 38%;}.spec9{transition: 0.5s ease; background:rgb(0, 255, 147);}.spec0{transition: 0.9s ease; background:rgba(255, 0,0,0.8);}.spec10{padding:15px 0 8px 10px;}
+
+.sml{
+	width:50% !important;
+}
+#welcome_q, #create_account,#forgot_q{
+	visibility: hidden;
+}
+.pass_stat hr{
+	background-color:lightcoral;
+	width:0%;
+	height:5px;
+	border:none;
+	border-radius: 20px;
+	float: left;
+}
+.dob{
+	margin-left:20px;
+	font-size:16px;
+	width:110px;
+	color:slategray;
+	background: none;
+	border:none;
+	border-bottom: solid rgba(255, 0, 0,0.8) 2px;
+	outline: none;
+	padding: 2px 2px 4px 2px;
+}.dob option:not(:first-child){color:black;}
+
+.slide{
+	transition: 1.5s ease; 
+}
+
+#frg_pass{
+	cursor: pointer;
+	color:rebeccapurple;
+}
+
+#frg_pass:hover{
+	text-decoration: underline;
+}
+#forgot_password{
+	width:100%;
+	display: none;
+}
+#opening{
+	width:55%;
+	margin:20px 0 50px 50px;
+	opacity: 0.7;
+	border-left: lightgray 2px solid;
+	border-top: lightgray 1px solid;
+	border-right: lightgray 1px solid;
+	border-bottom: lightgray 2px solid;
+	height:700px;
+	background: url(../images/winter_lights.jpg);
+	background-position: center;
+	background-size: cover;
+	float: left;
+	border-radius: 2px;
+}
