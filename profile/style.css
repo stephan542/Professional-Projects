@@ -1,8 +1,9 @@
-body{font-family:Cambria,"serif";}
-#banner h1{font-family:Arial, "sans-serif";padding-top: 30px;margin-bottom: 0px;} hr{margin-top: 0px}
-#content{background-color: #F0F0F0;margin:30px 200px 30px 200px;border-radius:3px;padding: 0px 10px 20px 10px;height: 1050px}
-#image{filter: grayscale(100%);border-color: white;float:right; margin:20px 40px 0px 700px;transform: rotate(-7deg);position: absolute}
-#information{float: left;position: relative}
-.g_color{color:gray;} .g_color a {text-decoration-line: underline;}
-.info_header{float:left;margin:0px 20px 0px 70px;}.info_header h4{margin:0px;}
-.info{float:left;padding-left: 20px;padding-top: 0px; border-left:1px solid lightgray;margin:0px;}.info,p,h4,b{margin:0px;color: black} .info p{color: gray}
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
